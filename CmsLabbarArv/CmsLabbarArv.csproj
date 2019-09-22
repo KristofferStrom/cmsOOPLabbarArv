@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{41358617-43DF-4B72-85AB-645974D42AC7}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>CmsLabbarArv</RootNamespace>
+    <AssemblyName>CmsLabbarArv</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Lab1\Lab1.cs" />
+    <Compile Include="Lab1\Triangle.cs" />
+    <Compile Include="Lab1\Rectangle.cs" />
+    <Compile Include="Lab1\Shape.cs" />
+    <Compile Include="Lab2\Lab2.cs" />
+    <Compile Include="Lab2\AlacarteMeny.cs" />
+    <Compile Include="Lab2\LunchMeny.cs" />
+    <Compile Include="Lab2\Matratt.cs" />
+    <Compile Include="Lab2\Meny.cs" />
+    <Compile Include="Lab2\MenyListing.cs" />
+    <Compile Include="Lab3\Huskatt.cs" />
+    <Compile Include="Lab3\Tiger.cs" />
+    <Compile Include="Lab3\Kattdjur.cs" />
+    <Compile Include="Lab3\Lab3.cs" />
+    <Compile Include="Lab4\MotorCykelAnnons.cs" />
+    <Compile Include="Lab4\HusvagnsAnnons.cs" />
+    <Compile Include="Lab4\BilAnnons.cs" />
+    <Compile Include="Lab4\FordonsAnnons.cs" />
+    <Compile Include="Lab4\Lab4.cs" />
+    <Compile Include="Lab5\Customer.cs" />
+    <Compile Include="Lab5\Lab5.cs" />
+    <Compile Include="Lab5\NormalOrder.cs" />
+    <Compile Include="Lab5\Order.cs" />
+    <Compile Include="Lab5\SpecialOrder.cs" />
+    <Compile Include="Lab6\Account.cs" />
+    <Compile Include="Lab6\Lab6.cs" />
+    <Compile Include="Lab6\User.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
