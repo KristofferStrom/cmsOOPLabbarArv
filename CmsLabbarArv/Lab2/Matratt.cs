@@ -13,6 +13,8 @@ namespace CmsLabbarArv.Lab2
         private readonly Typ typ;
         private readonly int antalKalorier;
 
+        public decimal GetPrice() { return pris; }
+
         public decimal Pris { get { return pris; } }
         public Typ MatrattsTyp { get { return typ; }  }
         public string Namn { get { return namn; }  }

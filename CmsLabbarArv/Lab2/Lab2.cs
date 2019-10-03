@@ -15,6 +15,12 @@ namespace CmsLabbarArv.Lab2
 
             var matRatter = new List<Matratt>();
             matRatter.Add(new Matratt("Pannkaka",75,Matratt.Typ.Vegetariskt,100) );
+
+
+            var mat = new Matratt("Hamburgare", 85, Matratt.Typ.Kott, 150);
+            decimal q1 = mat.GetPrice();
+            decimal d = mat.Pris;
+
             matRatter.Add(new Matratt("Hamburgare", 85, Matratt.Typ.Kott, 150));
             matRatter.Add(new Matratt("Spagetti Carbonara", 88, Matratt.Typ.Kott, 200));
 

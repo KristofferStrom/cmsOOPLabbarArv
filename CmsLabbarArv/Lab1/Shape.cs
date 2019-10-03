@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CmsLabbarArv.Lab1
 {
-    class Shape
+    abstract class Shape
     {
         protected readonly int width;
         protected readonly int height;
@@ -17,9 +17,6 @@ namespace CmsLabbarArv.Lab1
             this.height = height;
         }
 
-        public virtual float Area()
-        {
-            return width * height;
-        }
+        public abstract float Area();
     }
 }

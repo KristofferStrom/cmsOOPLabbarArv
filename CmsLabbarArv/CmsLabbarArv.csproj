@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Lab1\Lab1.cs" />
+    <Compile Include="Lab1\Square.cs" />
     <Compile Include="Lab1\Triangle.cs" />
     <Compile Include="Lab1\Rectangle.cs" />
     <Compile Include="Lab1\Shape.cs" />

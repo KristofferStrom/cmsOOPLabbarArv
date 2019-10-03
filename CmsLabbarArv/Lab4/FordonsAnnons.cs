@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CmsLabbarArv.Lab4
 {
-    class FordonsAnnons
+    abstract class FordonsAnnons
     {
         protected readonly string rubrik;
         protected readonly decimal pris;
@@ -23,9 +23,6 @@ namespace CmsLabbarArv.Lab4
             this.antalMil = antalMil;
         }
 
-        public virtual string GetAnnonsText()
-        {
-            return "";
-        }
+        public abstract string GetAnnonsText();
     }
 }

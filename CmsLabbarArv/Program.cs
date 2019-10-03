@@ -10,7 +10,7 @@ namespace CmsLabbarArv
     {
         static void Main(string[] args)
         {
-            var l = new Lab4.Lab4();
+            var l = new Lab1.Lab1();
             l.Run();
         }
     }

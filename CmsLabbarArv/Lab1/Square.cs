@@ -6,16 +6,17 @@ using System.Threading.Tasks;
 
 namespace CmsLabbarArv.Lab1
 {
-    class Rectangle : Shape
+    class Square : Shape
     {
-        public Rectangle(int width, int height)
-            :base(width,height)
+        public Square(int width)
+            :base(width, width)
         {
 
         }
+
         public override float Area()
         {
-            return width * height;
+            return width * width;
         }
     }
 }

@@ -16,7 +16,7 @@ namespace CmsLabbarArv.Lab1
 
         public override float Area()
         {
-            return width *  height / 2;
+            return width * height / 2;
         }
     }
 }

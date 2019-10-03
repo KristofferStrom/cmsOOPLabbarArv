@@ -21,7 +21,7 @@ namespace CmsLabbarArv.Lab6
 
         public void AddAccount(string kontoNummer)
         {
-            accounts.Add(new Account(kontoNummer));
+           accounts.Add(new Account(kontoNummer));
         }
 
         public User(string userName, string password)

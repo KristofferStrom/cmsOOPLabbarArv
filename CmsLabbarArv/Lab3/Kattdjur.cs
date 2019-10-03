@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CmsLabbarArv.Lab3
 {
-    class Kattdjur
+    abstract class Kattdjur
     {
         protected readonly string artNamn;
         private readonly string color;
@@ -17,6 +17,6 @@ namespace CmsLabbarArv.Lab3
             this.color = color;
         }
 
-        public virtual void MakeSound() { }
+        public abstract void MakeSound();
     }
 }
