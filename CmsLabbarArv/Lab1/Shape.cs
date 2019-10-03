@@ -11,6 +11,8 @@ namespace CmsLabbarArv.Lab1
         protected readonly int width;
         protected readonly int height;
 
+        public int Test { get; set; }
+
         public Shape(int width, int height)
         {
             this.width = width;
